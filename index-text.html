@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- play css link  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- cdn play link  -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- daisyUI play link-->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+  <!-- fontawesome play link  -->
+  <script src="https://kit.fontawesome.com/9e43434e44.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <div class="navbar-end">
+                <div class="navbar-end inline-grid grid-cols-2 gap-1"><img src="assets/logo.png" alt="">
+                    <a class="btn ">Donate Bangladesh</a>
+                  </div>
+              </div>
+          </div>
+          <a class="btn btn-ghost text-xl" href="index.html">Blog</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <div class="navbar-end inline-grid grid-cols-2 gap-1"><img src="assets/logo.png" alt="">
+                <a class="btn ">Donate Bangladesh</a>
+              </div>
+        </div>
+        <div class="navbar-end">
+            <img src="assets/coin.png" alt="">
+          <a class="btn">5500 BDT</a>
+        </div>
+      </div>
+      <!-- donate and history button  -->
+      <div class=" flex justify-center gap-5">
+        <a class="btn ">Donate </a>
+        <a class="btn ">History</a>
+      </div>
+      <!-- Accordion with arrow icon -->
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+        <div class="collapse-content">
+          <p>hello</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+        <div class="collapse-content">
+          <p>hello</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+        <div class="collapse-content">
+          <p>hello</p>
+        </div>
+      </div>
+    <!-- Js play link  -->
+    <script src="Js.js"></script>
+</body>
+</html>
